@@ -10,7 +10,6 @@ function StartGameScreen({ onPickNumber }) {
   const [enteredNumber, setEnteredNumber] = useState("");
 
   const numberInputHandler = (text) => {
-    console.log(text);
     setEnteredNumber(text);
   };
 
