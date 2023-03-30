@@ -43,7 +43,6 @@ function StartGameScreen({ onPickNumber }) {
     onPickNumber(chosenNumber);
   };
   const marginTopDistance = height < 450 ? 70 : 100;
-  console.log(height, { marginTop: marginTopDistance });
   return (
     <ScrollView style={styles.screen}>
       <KeyboardAvoidingView style={styles.screen} behavior="position">
